@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="utf-8">
+		<meta name="description" content="Portfolio of Megan Barnett"/>
+		<meta name="author" content="Megan Barnett"/>
+    <title>Megan Barnett Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+		<!--Google Fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Radley:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
+
+	<script src="script.js"></script>
+
+<!--include the following meta tag to make chrome dev tools recognize media queries: -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+  <body>
+			<header>
+				<img id="logo" src="images/logo.jpg">
+				<nav id="secondary-nav">
+					<ul>
+						<li><a href="analytics.html">Analytics</a></li>
+						<li><a href="docs/resume.pdf">Resume</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="https://www.linkedin.com/in/megan-barnett-3b509817a">LinkedIn</a></li>
+						<li><a href="https://meganbarnett.home.blog/">Blog</a></li>
+					</ul>
+				</nav>
+				<nav id="main-nav">
+					<ul>
+						<li ><a href="index.html">Home</a></li>
+						<li ><a href="websites.html">Websites</a></li>
+						<li ><a href="designs.html">Designs</a></li>
+						<li ><a href="programs.html">Programs</a></li>
+					</ul>
+				</nav>
+			<!--Mobile Nav-->
+			<div id = "mobile-nav">
+					<div id="mobileNav" class="overlay">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<div class="overlay-content">
+							<div id="mobile-nav-list">
+								<div id="mobile-primary-nav">
+									<a href="index.html">Home</a>
+									<a href="websites.html">Websites</a>
+									<a href="designs.html">Designs</a>
+									<a href="programs.html">Programs</a>
+								</div>	
+								<div id="mobile-sub-nav">
+										<a href="analytics.html">Analytics</a>
+										<a href="docs/resume.pdf">Resume</a>
+										<a href="https://www.linkedin.com/in/megan-barnett-3b509817a">LinkedIn</a>
+										<a href="https://meganbarnett.home.blog/">Blog</a>
+								</div>
+							</div>
+							<a id="mobile-contact" href="contact.html">Contact</a>
+						</div>
+					</div>
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()"><p>MENU</p></span>
+			</div>
+			<!--End Mobile-->
+				<img id="hero-img" src="images/Header Image.jpg">
+			</header>
+			
+			<main>
+				<h1>Websites</h1>
+				<h2 class="projects-section">Darragh Company Site Projects</h2>
+				<button onclick="plusDivs(-1)">&#10094;</button>
+				<button onclick="plusDivs(+1)">&#10095;</button>
+					<div class="projects darragh">	
+						<article class="darraghSlides">
+							<h1>Tool Central</h1>
+							<img src="images/websites/TC-Desktop.jpg">
+							<p>E-commerce sited dedicated to the selling of all Darragh Company's construction and industrial tools. The site is built to provide the customer with easy access to all the company's equipment and deals. While I did not design the original site I have made improvements and add pages to the site. I also update the site with new deals and content along with maintaining all the available products.</p>
+							<a href="https://toolcentral.com/">Visit</a>
+						</article>
+						<article class="darraghSlides">
+							<h1>Darragh</h1>
+							<img src="images/websites/Darragh-Desktop.JPG">
+							<p>The Darragh site is the main site for Darragh Company. This site lists all the services provided by the company and provides informaion about careers. I was not the main designer for this site but do maintain the site and make any major changes as needed.</p>
+							<a href="https://darraghcompany.com/">Visit</a>
+						</article>
+						<article class="darraghSlides">
+							<h1>Darco</h1>
+							<img src="images/websites/Darco.jpg">
+							<p>Darco is a division of Darragh. The website is used to advertise company information and services. I was designed and build the site on the Shopify platform.</p>
+							<a href="https://darcoforms.com/">Visit</a>
+						</article>
+						<article class="darraghSlides">
+							<h1>Arkansas Rebar</h1>
+							<img src="images/websites/ArkansasRebar.jpg">
+							<p>Arkansas Rebar is a division of Darragh. The website is used to advertise company information and services. I was designed and build the site on the Shopify platform. The site also comes with a unit conversion calculator built using Javascript.</p>
+							<a href="https://arkansasrebar.com/">Visit</a>
+						</article>
+					</div>
+					<h2 class="projects-section">Class Projects</h2>
+					<button  onclick="plusDivs2(-1)">&#10094;</button>
+					<button  onclick="plusDivs2(+1)">&#10095;</button>
+					<div class="projects class">
+						<article class="classSlides">
+							<h1>Buffalo River Retreat</h1>
+							<img src="images/websites/Buffalo-Desktop.jpg">
+							<p>The Buffalo River Retreat was a team project. We were talked with creating a fondation site for a proposed cabin rental and canoe company. We were tasked with creating a logo and name for the company on top of overall site creation. This site not only presents the company image but also provides visitors with the ability to reserve rental and view river levels.</p>
+							<a href="https://dynamicdevelopment.meganbarnett.repl.co/">Visit</a>
+						</article>
+						<article class="classSlides">
+							<h1>Segway</h1>
+							<img src="images/websites/Segway-Desktop.JPG">
+							<p>The Segway site was an individual class assignment. The site consists of one page with dynamic scrolling. The site represents all the rejuested informaion in an clear and appealing manner.</p>
+							<a href="https://megan-barnett-it-citrine--meganbarnett.repl.co/segway/index.html">Visit</a>
+						</article>
+						<article class="classSlides">
+							<h1>Dragon</h1>
+							<img src="images/websites/SpaceX-Desktop.jpg">
+							<p>Dragon was an assigned project themed to display the SpaceX Dragon. The site was used to show what students had learned through out the semester.</p>
+							<a href="https://megan-barnett-it-citrine--meganbarnett.repl.co/dragon/index.html">Visit</a>
+						</article>
+						<article class="classSlides">
+							<h1>Christmas</h1>
+							<img src="images/websites/Christmas-Desktop.jpg">
+							<p>This website was my first ever multipage website. It is a simple site used to show what was learned within the semester.</p>
+							<a href="">Visit</a>
+						</article>
+					</div>
+			</main>
+			<footer><img id="footer-logo" src="images/logo.jpg"></footer>
+  </body>
+</html>

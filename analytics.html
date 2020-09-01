@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="utf-8">
+		<meta name="description" content="Portfolio of Megan Barnett"/>
+		<meta name="author" content="Megan Barnett"/>
+    <title>Megan Barnett Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+		<!--Google Fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Radley:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
+
+	<script src="script.js"></script>
+
+<!--include the following meta tag to make chrome dev tools recognize media queries: -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+  <body>
+			<header>
+				<img id="logo" src="images/logo.jpg">
+				<nav id="secondary-nav">
+					<ul>
+						<li><a href="analytics.html">Analytics</a></li>
+						<li><a href="docs/resume.pdf">Resume</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="https://www.linkedin.com/in/megan-barnett-3b509817a">LinkedIn</a></li>
+						<li><a href="https://meganbarnett.home.blog/">Blog</a></li>
+					</ul>
+				</nav>
+				<nav id="main-nav">
+					<ul>
+						<li ><a href="index.html">Home</a></li>
+						<li ><a href="websites.html">Websites</a></li>
+						<li ><a href="designs.html">Designs</a></li>
+						<li ><a href="programs.html">Programs</a></li>
+					</ul>
+				</nav>
+			<!--Mobile Nav-->
+			<div id = "mobile-nav">
+					<div id="mobileNav" class="overlay">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<div class="overlay-content">
+							<div id="mobile-nav-list">
+								<div id="mobile-primary-nav">
+									<a href="index.html">Home</a>
+									<a href="websites.html">Websites</a>
+									<a href="designs.html">Designs</a>
+									<a href="programs.html">Programs</a>
+								</div>	
+								<div id="mobile-sub-nav">
+										<a href="analytics.html">Analytics</a>
+										<a href="docs/resume.pdf">Resume</a>
+										<a href="https://www.linkedin.com/in/megan-barnett-3b509817a">LinkedIn</a>
+										<a href="https://meganbarnett.home.blog/">Blog</a>
+								</div>
+							</div>
+							<a id="mobile-contact" href="contact.html">Contact</a>
+						</div>
+					</div>
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()"><p>MENU</p></span>
+			</div>
+			<!--End Mobile-->
+				<img id="hero-img" src="images/Header Image.jpg">
+			</header>
+			
+			<main>
+				<h1>Analytics</h1>
+				<h2>Excel Data Analytics</h2>
+
+
+<div class="tabBody">
+  <button class="tab" onclick="openTab('competitivePricing')">Competitive Pricing</button>
+  <button class="tab" onclick="openTab('inventory')">Inventory</button>
+  <button class="tab" onclick="openTab('pricingUpdate')">Pricing Update</button>
+  <button class="tab" onclick="openTab('more')">More</button>
+</div>
+
+<div id="competitivePricing" class="tabContent">
+	<img src="images/google-sheets.svg">
+	<h3>Competitive Pricing</h3>
+      <p>The competitive pricing sheet displays and analysis competitor prices with company price to calculate the optimal price margin.
+			</p>
+      <p>*Unable to share sheet due to company confidentiality. </p>						
+</div>
+
+<div id="inventory" class="tabContent" style="display:none">
+	<img src="images/google-sheets.svg">
+	<h3>Inventory Update Shopify</h3>
+<p>The inventory sheet cross-references data from company inventory software and updates the Tool Central store inventory based on the data obtained.</p>
+						<p>*Unable to share sheet due to company confidentiality. </p>	
+</div>
+<div id="pricingUpdate" class="tabContent" style="display:none">
+	<img src="images/google-sheets.svg">
+	<h3>Pricing Update Shopify</h3>
+<p>Like the inventory report, the pricing report updates the Tool Central product pricing based on data obtained from the company software.</p>
+							<p>*Unable to share sheet due to company confidentiality. </p>					
+</div>
+<div id="more" class="tabContent" style="display:none">
+	<img src="images/google-sheets.svg">
+	<h3>More Data Analytics</h3>
+<p>If you want to see more please visit my drive!</p>
+					<a class="button" href="https://drive.google.com/drive/folders/1fscQKTGTfNtTnpE0sgKIFPp4ILesx9G1?usp=sharing">Drive</a>
+</div>
+
+
+
+
+
+
+				<h2>Usability Testing</h2>
+				<div id="pdf">
+				<a class="button"  href="">PDF View</a>
+				</div>
+				<iframe src="docs/usability.pdf" height="700px" width="80%"></iframe>
+
+			</main>
+			<footer><img id="footer-logo" src="images/logo.jpg"></footer>
+  </body>
+</html>
